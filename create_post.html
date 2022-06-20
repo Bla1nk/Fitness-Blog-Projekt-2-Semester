@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Startseite{% endblock %} 
+{% block content %}
+<h1 align="center">Fitnessblog Eintrag erstellen</h1>
+
+<form method="POST">
+  <textarea name="text" id="text" class="form-control"></textarea>
+  <br />
+  <div align="center">
+    <button type="submit" class="btn btn-lg btn-primary">Fitnessblogeintrag Posten</button>
+  </div>
+</form>
+<br />
+<div align="center">
+  <a href="/home"
+    ><button type="button" class="btn btn-lg btn-secondary">Zurück</button></a
+  >
+
+  
+</div>
+{% endblock %}
